@@ -46,7 +46,7 @@ class MainActivity : AppCompatActivity()
     }
 }
 
-private class Dice (val numSides: Int)
+class Dice (val numSides: Int)
 {
     //Metodo para obtener el número random desde el 1 hasta el numero indicado
     fun roll(): Int {
